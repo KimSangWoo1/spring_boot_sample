@@ -1,0 +1,86 @@
+package com.plantynet.common.base.vo;
+
+import java.util.List;
+import java.util.Map;
+
+import lombok.Setter;
+import lombok.ToString;
+
+//https://kwonnam.pe.kr/wiki/java/lombok/pitfall //롬복 사용 주의 사항!!!
+//@Getter
+@Setter
+@ToString
+public class DataTableInput
+{
+    //사용하지 않음
+    /*
+    columns[3][search][regex] 이렇게 넘어 오는 것 때문에 값을 받기 쉽지 않다... 
+    => 해결책 1) https://www.opencodez.com/java/datatable-with-spring-boot.htm
+    => 해결책 2) https://github.com/nsacyber/HIRS/tree/master/HIRS_AttestationCAPortal/src/main/webapp/lib/jquery.spring-friendly 이걸 써서 보내는 파라미터 변형
+    => 해결책 3) https://stackoverflow.com/questions/23704352/cant-map-a-query-string-parameters-to-my-javabean-using-spring-4-and-datatable
+    order[0][column]=0 //정렬(단일인 경우)... 멀티 정렬인 경우 order[1][column], order[1][dir] 이렇게 넘어온다... 
+    order[0][dir]=asc //asc|desc
+    start=0 //mysql의 offset과 동일
+    length=5 //한 페이지 당 record 수 , mysql의 limit와 동일
+    search[value]=1 //검색어
+    search[regex]=false
+    */
+    
+    //DataTable.js용
+    private int draw;
+    private int start;
+    private int length;
+    
+    //private List<Map<ColumnCriterias, String>> columns;
+    private List<Map<OrderCriterias, String>> order;
+    private Map<SearchCriterias, String> search;
+    
+    public int getDraw()
+    {
+        return draw;
+    }
+    public int getStart()
+    {
+        return start;
+    }
+    public int getLength()
+    {
+        return length;
+    }
+    /*public List<Map<ColumnCriterias, String>> getColumns()
+    {
+        return columns;
+    }*/
+    public List<Map<OrderCriterias, String>> getOrder()
+    {
+        return order;
+    }
+    public Map<SearchCriterias, String> getSearch()
+    {
+        return search;
+    }
+    //paging 호환
+    public int getPage()
+    {
+        return (this.start / this.length) + 1;
+    }
+    /*public enum ColumnCriterias 
+    {
+        data,
+        name,
+        searchable,
+        orderable,
+        searchValue,
+        searchRegex
+    }*/
+    public enum OrderCriterias 
+    {
+        column,
+        dir
+    }
+    public enum SearchCriterias 
+    {
+        value,
+        regex
+    }
+}

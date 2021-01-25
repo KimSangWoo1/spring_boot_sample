@@ -1,0 +1,83 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.2'
+	//jar로 만들때(BOOT-INF/classes, lib가 생성됨)
+	id 'java'
+	//war로 만들때(WEB-INF/classes, lib, lib-provided가 생성됨. ServletInitializer.java 추가됨)
+	//id 'war'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.plantynet'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+//수동 추가
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+configurations {
+	developmentOnly
+	runtimeClasspath {
+		extendsFrom developmentOnly
+	}
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	//spring data jpa
+	//implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-quartz'
+	//spring security
+	//implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	annotationProcessor 'org.projectlombok:lombok'
+	//war로 만들때(lib-provided로 tomcat관련된 jar 분리)
+	//providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+	//spring security test
+	//testImplementation 'org.springframework.security:spring-security-test'
+	
+	//수동 추가
+    implementation 'org.mariadb.jdbc:mariadb-java-client'
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    //implementation 'org.springframework.data:spring-data-commons' //spring-starter-data-jpa 선언하면 추가할 필요 없음
+}
+	test {
+	useJUnitPlatform()
+	}
+	
+	/*
+	ext.profile = (!project.hasProperty('profile') || !profile) ? 'batch' : profile
+
+	sourceSets {
+		main {
+			resources {
+				srcDirs "src/main/resources", "src/main/resources-local","src/main/resources-real"
+			}
+		}
+	}
+	*/
+	bootRun {
+    String activeProfile = System.properties['spring.profiles.active']
+    systemProperty "spring.profiles.active", activeProfile
+	}
+
+//수동 추가
+//https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
+//Fully executable jars -> java -jar xxx.jar 할 필요 없이 xxx.jar로 실행할 수 있게... (jar만 가능함. linux에서만 가능. 서비스로 실행시키려면 이렇게 하는게...)
+bootJar {
+    launchScript()
+}

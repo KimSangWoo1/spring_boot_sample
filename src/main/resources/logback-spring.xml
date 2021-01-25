@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true" scan="true">
+
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    
+    <appender name="SAMPLE_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/SAMPLE.log</file>
+        <encoder>
+            <charset>UTF-8</charset>
+            <!-- 필요시 줄바꿈을 \n으로... %n이면 시스템에 맞게 자동으로 지정됨 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss}|%-5level|%msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}/SAMPLE.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+  
+    <logger name="SAMPLE" level="INFO">
+        <appender-ref ref="SAMPLE_FILE" />
+    </logger>
+
+</configuration>

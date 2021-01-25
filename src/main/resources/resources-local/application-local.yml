@@ -1,0 +1,42 @@
+spring:
+  profiles: local
+  #resources:
+    #static-locations: file:///${custom.adCheck.imgPath}
+  datasource: 
+    url: jdbc:mariadb://121.169.194.198:3306/spring
+    username: planty
+    password: 'Planty2020' #숫자인 경우 인식이 잘 안 될 수 있음. 이 경우 '' 로 둘러 싸야 함
+    driverClassName: org.mariadb.jdbc.Driver
+    #dbcp2 https://www.mkyong.com/spring-boot/spring-boot-jdbc-oracle-database-commons-dbcp2-example/
+    #type: org.apache.commons.dbcp2.BasicDataSource 
+    #dbcp2:
+      #max-total: 20
+      #max-idle: 20
+      #validation-query: select 1
+      #test-on-borrow: false
+      #test-while-idle: true
+      #time-between-eviction-runs-millis: 600000
+      #num-tests-per-eviction-run: 7
+      #min-evictable-idle-time-millis: -1
+    #hikari (type은 굳이 지정할 필요 없음)
+    #type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      connectionTimeout: 5000 #30000ms
+      #maxLifetime: 1800000 #1800000ms(30분)
+      maximumPoolSize: 20 #기본 10
+      validationTimeout: 1000 #5000ms, connectionTimeout 보다 적어야 함
+  jmx:
+    enabled: false
+  devtools:
+    livereload:
+      enabled: false
+#정적인 내용도 자동 리로딩 되게 하기 위해 devtools에서 별도의 서버(port 35729)를 실행해서 
+#브라우저와 연동함(브라우저 플러그인과 통신)
+#필요 없으면 위에처럼 꺼야 함
+---
+server:
+  port: 8080
+---
+custom:
+  # 2분에 한번
+  schedule: '0 0/2 * * * ?'

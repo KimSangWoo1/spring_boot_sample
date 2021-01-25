@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" >
+    //https://datatables.net/manual/options#Common-options
+    /* $.extend( $.fn.dataTable.defaults, {
+        searching: false,
+        ordering:  false
+    } ); */
+    //https://www.leafcats.com/62
+    //https://www.leafcats.com/63
+    $(document).ready( function () {
+        $('#userTable').dataTable({
+            "pageLength": 5,
+            "paging": true,//bPaginate: true,
+            //"pagingType" : "full_numbers",
+            "lengthChange": true,//bLengthChange: true,
+            "lengthMenu" : [ [ 3, 5, 10, -1 ], [ 3, 5, 10, "전체" ] ],//lengthChange에 표시될 항목
+            "autoWidth":false,//bAutoWidth: false,
+            "processing": true,
+            "ordering": true,
+            "orderMulti": false,//true인 경우 shift + column 클릭하면 다중 컬럼 정렬 가능
+            "searching": true,
+            "serverSide": false,//받아온 데이터 가지고 검색, 정렬, 페이징 등을 처리할꺼냐, 아니면 서버에서 가공해서 처리할 꺼나?
+            "ajax" : {
+                "url":"/api/v1.0/paging",
+                "type":"GET",
+                "data": function (d) {//요청할 때 조건...
+                    d.strId = "";
+                }
+            },
+            "columns" : [//json과 컬럼 매핑
+                {"data": "strId"},
+                {"data": "strNm"},
+                {"data": "sttus"},
+                {"data": "rgsde"}
+            ]
+
+        });
+    });
+    </script>
+</head>
+<body>
+<table id="userTable" class="table table-striped table-bordered table-hover" >
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Status</th>
+            <th>등록일</th>
+        </tr>
+    </thead>
+    <!-- tbody 태그 필요 없다. -->
+</table>
+</body>
+</html>

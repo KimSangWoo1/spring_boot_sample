@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" >
+    //https://datatables.net/manual/options#Common-options
+    /* $.extend( $.fn.dataTable.defaults, {
+        searching: false,
+        ordering:  false
+    } ); */
+    //https://www.leafcats.com/62
+    //https://www.leafcats.com/63
+    $(document).ready( function () {
+        // Korean : https://ibrahimovic.tistory.com/20 [Web Standard]
+        var lang_kor = {
+            "decimal" : "",
+            "emptyTable" : "데이터가 없습니다.",
+            "info" : "_START_ - _END_ (총 _TOTAL_ 명)",
+            "infoEmpty" : "0명",
+            "infoFiltered" : "(전체 _MAX_ 명 중 검색결과)",
+            "infoPostFix" : "",
+            "thousands" : ",",
+            "lengthMenu" : "_MENU_ 개씩 보기",
+            "loadingRecords" : "로딩중...",
+            "processing" : "처리중...",
+            "search" : "검색 : ",
+            "zeroRecords" : "검색된 데이터가 없습니다.",
+            "paginate" : {
+                "first" : "첫 페이지",
+                "last" : "마지막 페이지",
+                "next" : "다음",
+                "previous" : "이전"
+            },
+            "aria" : {
+                "sortAscending" : " :  오름차순 정렬",
+                "sortDescending" : " :  내림차순 정렬"
+            }
+        };
+        
+        var dataTableObj = $("#userTable");
+        $("#searchBtn").click(function() {
+            var searchWrd = $.trim($("#searchWrd").val());
+            $("#searchWrd").val(searchWrd);
+            //if(searchWrd != "") {
+                //dataTableObj.DataTable().search(searchWrd).draw();
+                dataTableObj.DataTable().draw();
+            //}
+        });
+        
+        dataTableObj.DataTable({
+            "pageLength": 5,
+            "paging": true,
+            "pagingType" : "full_numbers",
+            "lengthChange": true,
+            "lengthMenu" : [ [ 3, 5, 10, -1 ], [ 3, 5, 10, "전체" ] ],//lengthChange에 표시될 항목
+            "autoWidth":false,
+            "processing": true,//processing indicator
+            "ordering": true,
+            "orderMulti": false,//true인 경우 shift + column 클릭하면 다중 컬럼 정렬 가능 (클릭한 순서대로 정렬됨...)
+            "searching": false,//별도의 검색창
+            "serverSide": true,//받아온 데이터 가지고 검색, 정렬, 페이징 등을 처리할꺼냐, 아니면 서버에서 가공해서 처리할 꺼나?
+            "order": [],//정렬 기본값
+            "ajax" : {
+                "url":"/api/v1.0/paging",
+                "type":"GET",
+                "data": function (d) {
+                    //vo에서 받을 수 있게 형식 변경
+                    planify(d); 
+                    //요청할 때 조건...
+                    d.searchCnd = $("#searchCnd").val();
+                    d.searchWrd = $("#searchWrd").val();
+                }
+            },
+            "language" : lang_kor, //or lang_eng
+            "columns" : [//json과 컬럼 매핑
+                //{"data": "strId"},//정렬할 때 인덱스로 해서 찾으려면 name을 설정 안 해도 됨.
+                {"data": "strId", "name": "STR_ID", "className": 'dt-right'},//https://datatables.net/manual/styling/classes
+                {"data": "strNm", "name": "STR_NM"},
+                {"data": "sttus", "name": "STTUS"},
+                {"data": "rgsde", "name": "RGSDE"}
+            ],
+            //columns에서 바로 컬럼별로 지정도 가능함
+            /* columnDefs : [
+                {
+                    "targets": [0,1],//"targets": 'nosort', //class로 지정 가능
+                    "visible": true, //표시
+                    "searchable": true, //검색
+                    "orderable": true //정렬
+                },
+                {
+                    "targets": 2,
+                    "visible": false
+                }
+            ] */
+            "columnDefs": [ 
+                /* {
+                    "targets": [2,3],
+                    "searchable": false //검색
+                }, */
+                {
+                    "targets": "_all",
+                    "className": "dt-center"
+                },
+                {
+                    "targets": [1,2],
+                    "orderable": false, //정렬
+                },
+                {
+                    "targets": 0,
+                    "render": function(data){
+                        return '<a href="./aaa?id='+ data + '">'+data+'</a>'
+                     }
+                }
+            ]
+        });
+        
+        //columns[3][search][regex]  --> columns[3][searchRegex] 형태로 변경 
+        function planify(data) {
+            for (var i = 0; i < data.columns.length; i++) {
+                column = data.columns[i];
+                column.searchRegex = column.search.regex;
+                column.searchValue = column.search.value;
+                delete(column.search);
+            }
+        }
+    });
+    
+    </script>
+</head>
+<body>
+<select id="searchCnd">
+<option value="STR_ID">ID</option>
+<option value="STR_NM">이름</option>
+</select><input type="text" id="searchWrd" /><input type="button" id="searchBtn" value="검색"/> 
+<table id="userTable" class="display" >
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Status</th>
+            <th>등록일</th>
+        </tr>
+    </thead>
+    <!-- tbody 태그 필요 없다. -->
+</table>
+</body>
+</html>

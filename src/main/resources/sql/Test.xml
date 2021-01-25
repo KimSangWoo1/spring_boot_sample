@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.plantynet.tech2.dao.TestDao">
+
+    <!--
+    mybatis-config.xml에서 mapUnderscoreToCamelCase로 처리
+    <resultMap id="testResult" type="TestVo">
+        <result property="strId" column="STR_ID" javaType="String"/>
+        <result property="strNm" column="STR_NM" javaType="String"/>
+    </resultMap>
+    -->
+
+    <select id="selectTestListTotalCnt" resultType="int">
+        SELECT COUNT(*) AS CNT
+        FROM TEST
+    </select>
+        
+    <select id="selectTestListCnt" parameterType="TestVo" resultType="int">
+        SELECT COUNT(*) AS CNT
+        FROM TEST
+        <where>
+        <if test="searchWrd != null and searchWrd != ''">
+            <if test="searchCnd == 'STR_NM'">
+            AND STR_NM LIKE CONCAT(#{searchWrd}, '%') 
+            </if>
+            <if test="searchCnd == 'STR_ID'">
+            AND STR_ID LIKE CONCAT(#{searchWrd}, '%') 
+            </if>
+        </if>
+        </where>
+    </select>
+    
+    <select id="selectTestList" parameterType="TestVo" resultType="TestVo">
+        SELECT STR_ID, STR_NM, STTUS, 
+            DATE_FORMAT(RGSDE, '%Y-%m-%d %H:%i') AS RGSDE, 
+            DATE_FORMAT(UPDDE, '%Y-%m-%d %H:%i') AS UPDDE 
+        FROM TEST
+        <where>
+        <if test="searchWrd != null and searchWrd != ''">
+            <if test="searchCnd == 'STR_NM'">
+            AND STR_NM LIKE CONCAT(#{searchWrd}, '%') 
+            </if>
+            <if test="searchCnd == 'STR_ID'">
+            AND STR_ID LIKE CONCAT(#{searchWrd}, '%') 
+            </if>
+        </if>
+        </where>
+        <!-- 멀티정렬 -->
+        <!--
+        <choose>
+            <when test="sortOrder != null and sortOrder != ''">
+        ORDER BY ${sortOrder}
+            </when>
+            <otherwise>
+        ORDER BY RGSDE DESC, STR_ID DESC
+            </otherwise>
+        </choose>
+          -->
+        <choose>
+            <when test='sortColumn == "RGSDE"'>ORDER BY RGSDE</when>
+            <otherwise>ORDER BY STR_ID</otherwise>
+        </choose>
+        <choose>
+            <when test='sortOrder == "DESC"'>DESC</when>
+            <otherwise>ASC</otherwise>
+        </choose>
+        <if test="length > 0">
+        LIMIT #{start}, #{length}
+        </if>
+    </select>
+    
+    <insert id="insertTestInfo" parameterType="TestVo">
+        INSERT INTO TEST
+        (
+            STR_ID, STR_NM, STTUS, RGSDE, UPDDE
+        )
+        VALUES
+        (
+            #{strId}, #{strNm}, #{sttus}, NOW(), NOW()
+        )
+    </insert>
+    
+    <delete id="deleteTestInfo" parameterType="String">
+        DELETE FROM TEST
+        WHERE STR_ID = #{strId} 
+    </delete>
+</mapper>
