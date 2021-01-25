@@ -1,0 +1,479 @@
+2021-01-25 16:00:00|INFO |=========================logBefore()=========================
+2021-01-25 16:00:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:00:00|INFO |[parameter] : 
+2021-01-25 16:00:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:00:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:44:00|INFO |=========================logBefore()=========================
+2021-01-25 16:44:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:44:00|INFO |[parameter] : 
+2021-01-25 16:44:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:44:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:46:00|INFO |=========================logBefore()=========================
+2021-01-25 16:46:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:46:00|INFO |[parameter] : 
+2021-01-25 16:46:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:46:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:48:00|INFO |=========================logBefore()=========================
+2021-01-25 16:48:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:48:00|INFO |[parameter] : 
+2021-01-25 16:48:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:48:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:50:00|INFO |=========================logBefore()=========================
+2021-01-25 16:50:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:50:00|INFO |[parameter] : 
+2021-01-25 16:50:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:50:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:52:00|INFO |=========================logBefore()=========================
+2021-01-25 16:52:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:52:00|INFO |[parameter] : 
+2021-01-25 16:52:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:52:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:54:00|INFO |=========================logBefore()=========================
+2021-01-25 16:54:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:54:00|INFO |[parameter] : 
+2021-01-25 16:54:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:54:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:55:26|INFO |=========================logBefore()=========================
+2021-01-25 16:55:26|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 16:55:26|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 16:55:37|INFO |=========================logBefore()=========================
+2021-01-25 16:55:37|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 16:55:37|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_NM, searchWrd=, sortColumn=null, sortOrder=null, draw=2, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 16:55:39|INFO |=========================logBefore()=========================
+2021-01-25 16:55:39|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 16:55:39|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_NM, searchWrd=, sortColumn=STR_ID, sortOrder=ASC, draw=3, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 16:55:41|INFO |=========================logBefore()=========================
+2021-01-25 16:55:41|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 16:55:41|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_NM, searchWrd=, sortColumn=STR_ID, sortOrder=DESC, draw=4, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 16:56:00|INFO |=========================logBefore()=========================
+2021-01-25 16:56:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:56:00|INFO |[parameter] : 
+2021-01-25 16:56:06|INFO |=========================logBefore()=========================
+2021-01-25 16:56:06|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 16:56:06|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_NM, searchWrd=, sortColumn=RGSDE, sortOrder=ASC, draw=5, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 16:56:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:56:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:58:00|INFO |=========================logBefore()=========================
+2021-01-25 16:58:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:58:00|INFO |[parameter] : 
+2021-01-25 16:58:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 16:58:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 16:59:14|INFO |=========================logBefore()=========================
+2021-01-25 16:59:14|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 16:59:14|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_NM, searchWrd=, sortColumn=RGSDE, sortOrder=ASC, draw=6, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:00:00|INFO |=========================logBefore()=========================
+2021-01-25 17:00:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:00:00|INFO |[parameter] : 
+2021-01-25 17:00:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:00:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:02:00|INFO |=========================logBefore()=========================
+2021-01-25 17:02:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:02:00|INFO |[parameter] : 
+2021-01-25 17:02:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:02:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:03:55|INFO |=========================logBefore()=========================
+2021-01-25 17:03:55|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:03:55|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_NM, searchWrd=, sortColumn=STR_ID, sortOrder=ASC, draw=7, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:04:00|INFO |=========================logBefore()=========================
+2021-01-25 17:04:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:04:00|INFO |[parameter] : 
+2021-01-25 17:04:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:04:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:04:35|INFO |=========================logBefore()=========================
+2021-01-25 17:04:35|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:04:35|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=loca, sortColumn=STR_ID, sortOrder=ASC, draw=8, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:04:41|INFO |=========================logBefore()=========================
+2021-01-25 17:04:41|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:04:41|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=loka, sortColumn=STR_ID, sortOrder=ASC, draw=9, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:04:49|INFO |=========================logBefore()=========================
+2021-01-25 17:04:49|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:04:49|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=loka, sortColumn=STR_ID, sortOrder=ASC, draw=10, start=0, length=-1), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:04:52|INFO |=========================logBefore()=========================
+2021-01-25 17:04:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:04:52|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=loka, sortColumn=STR_ID, sortOrder=ASC, draw=11, start=0, length=-1), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:06:00|INFO |=========================logBefore()=========================
+2021-01-25 17:06:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:06:00|INFO |[parameter] : 
+2021-01-25 17:06:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:06:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:08:00|INFO |=========================logBefore()=========================
+2021-01-25 17:08:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:08:00|INFO |[parameter] : 
+2021-01-25 17:08:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:08:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:09:21|INFO |=========================logBefore()=========================
+2021-01-25 17:09:21|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:09:21|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:09:24|INFO |=========================logBefore()=========================
+2021-01-25 17:09:24|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:09:24|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=2, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:10:00|INFO |=========================logBefore()=========================
+2021-01-25 17:10:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:10:00|INFO |[parameter] : 
+2021-01-25 17:10:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:10:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:10:51|INFO |=========================logBefore()=========================
+2021-01-25 17:10:51|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:10:51|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:10:56|INFO |=========================logBefore()=========================
+2021-01-25 17:10:56|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:10:56|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=ksw, sortColumn=null, sortOrder=null, draw=2, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:12:00|INFO |=========================logBefore()=========================
+2021-01-25 17:12:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:12:00|INFO |[parameter] : 
+2021-01-25 17:12:07|INFO |=========================logBefore()=========================
+2021-01-25 17:12:07|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:12:07|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=ksw, sortColumn=null, sortOrder=null, draw=3, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:12:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:12:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:14:00|INFO |=========================logBefore()=========================
+2021-01-25 17:14:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:14:00|INFO |[parameter] : 
+2021-01-25 17:14:05|INFO |=========================logBefore()=========================
+2021-01-25 17:14:05|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:14:05|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:14:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:14:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:16:00|INFO |=========================logBefore()=========================
+2021-01-25 17:16:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:16:00|INFO |[parameter] : 
+2021-01-25 17:16:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:16:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:18:00|INFO |=========================logBefore()=========================
+2021-01-25 17:18:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:18:00|INFO |[parameter] : 
+2021-01-25 17:18:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:18:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:18:12|INFO |=========================logBefore()=========================
+2021-01-25 17:18:12|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:18:12|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:18:12|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:18:12|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:18:12|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=1, recordsTotal=1, recordsFiltered=1, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18)])
+2021-01-25 17:20:00|INFO |=========================logBefore()=========================
+2021-01-25 17:20:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:20:00|INFO |[parameter] : 
+2021-01-25 17:20:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:20:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:22:00|INFO |=========================logBefore()=========================
+2021-01-25 17:22:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:22:00|INFO |[parameter] : 
+2021-01-25 17:22:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:22:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:23:57|INFO |=========================logBefore()=========================
+2021-01-25 17:23:57|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:23:57|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:23:58|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:23:58|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:23:58|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=1, recordsTotal=1, recordsFiltered=1, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18)])
+2021-01-25 17:24:00|INFO |=========================logBefore()=========================
+2021-01-25 17:24:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:24:00|INFO |[parameter] : 
+2021-01-25 17:24:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:24:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:26:00|INFO |=========================logBefore()=========================
+2021-01-25 17:26:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:26:00|INFO |[parameter] : 
+2021-01-25 17:26:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:26:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:27:21|INFO |=========================logBefore()=========================
+2021-01-25 17:27:21|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:21|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:27:21|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:27:21|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:21|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=1, recordsTotal=2, recordsFiltered=2, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:27:27|INFO |=========================logBefore()=========================
+2021-01-25 17:27:27|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:27|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=qwe, sortColumn=null, sortOrder=null, draw=2, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:27:27|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:27:27|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:27|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=qwe, sortColumn=null, sortOrder=null, draw=2, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=2, recordsTotal=2, recordsFiltered=1, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:27:29|INFO |=========================logBefore()=========================
+2021-01-25 17:27:29|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:29|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=ksw, sortColumn=null, sortOrder=null, draw=3, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:27:29|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:27:29|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:29|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=ksw, sortColumn=null, sortOrder=null, draw=3, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=3, recordsTotal=2, recordsFiltered=1, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18)])
+2021-01-25 17:27:33|INFO |=========================logBefore()=========================
+2021-01-25 17:27:33|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:33|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=ksw, sortColumn=null, sortOrder=null, draw=4, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:27:33|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:27:33|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:33|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=ksw, sortColumn=null, sortOrder=null, draw=4, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=4, recordsTotal=2, recordsFiltered=1, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18)])
+2021-01-25 17:27:34|INFO |=========================logBefore()=========================
+2021-01-25 17:27:34|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:34|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=ksw, sortColumn=null, sortOrder=null, draw=5, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:27:34|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:27:34|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:34|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=ksw, sortColumn=null, sortOrder=null, draw=5, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=5, recordsTotal=2, recordsFiltered=1, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18)])
+2021-01-25 17:27:36|INFO |=========================logBefore()=========================
+2021-01-25 17:27:36|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:36|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=6, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:27:36|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:27:36|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:36|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=6, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=6, recordsTotal=2, recordsFiltered=2, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:27:52|INFO |=========================logBefore()=========================
+2021-01-25 17:27:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:52|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=7, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:27:52|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:27:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:27:52|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=7, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=7, recordsTotal=2, recordsFiltered=2, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:28:00|INFO |=========================logBefore()=========================
+2021-01-25 17:28:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:28:00|INFO |[parameter] : 
+2021-01-25 17:28:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:28:33|INFO |=========================logBefore()=========================
+2021-01-25 17:28:33|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:33|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:33|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:33|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:33|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=1, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:28:35|INFO |=========================logBefore()=========================
+2021-01-25 17:28:35|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:35|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=2, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:35|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:35|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:35|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=2, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=2, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:36|INFO |=========================logBefore()=========================
+2021-01-25 17:28:36|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:36|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=3, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:36|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:36|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:36|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=3, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=3, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:28:37|INFO |=========================logBefore()=========================
+2021-01-25 17:28:37|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:37|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=4, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:37|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:37|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:37|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=4, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=4, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:38|INFO |=========================logBefore()=========================
+2021-01-25 17:28:38|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:38|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=5, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:38|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:38|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:38|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=5, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=5, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:28:39|INFO |=========================logBefore()=========================
+2021-01-25 17:28:39|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:39|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=6, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:39|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:39|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:39|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=6, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=6, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:40|INFO |=========================logBefore()=========================
+2021-01-25 17:28:40|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:40|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=7, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:40|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:40|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:40|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=7, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=7, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:28:41|INFO |=========================logBefore()=========================
+2021-01-25 17:28:41|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:41|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=8, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:41|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:41|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:41|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=8, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=8, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:47|INFO |=========================logBefore()=========================
+2021-01-25 17:28:47|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:47|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=9, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:47|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:47|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:47|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=9, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=9, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:47|INFO |=========================logBefore()=========================
+2021-01-25 17:28:47|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:47|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=10, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:47|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:47|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:47|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=10, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=10, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:48|INFO |=========================logBefore()=========================
+2021-01-25 17:28:48|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:48|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=11, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:48|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:48|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:48|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=11, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=11, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:48|INFO |=========================logBefore()=========================
+2021-01-25 17:28:48|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:48|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=12, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:48|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:48|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:48|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=12, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=12, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:48|INFO |=========================logBefore()=========================
+2021-01-25 17:28:48|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:48|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=13, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:48|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:48|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:48|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=13, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=13, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:48|INFO |=========================logBefore()=========================
+2021-01-25 17:28:48|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:48|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=14, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:48|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:48|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:48|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=14, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=14, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:50|INFO |=========================logBefore()=========================
+2021-01-25 17:28:50|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:50|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=15, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:50|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:50|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:50|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=15, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=15, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:50|INFO |=========================logBefore()=========================
+2021-01-25 17:28:50|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:50|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=16, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:50|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:50|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:50|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=16, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=16, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:50|INFO |=========================logBefore()=========================
+2021-01-25 17:28:50|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:50|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=17, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:50|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:50|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:50|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=17, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=17, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:50|INFO |=========================logBefore()=========================
+2021-01-25 17:28:50|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:50|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=18, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:50|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:50|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:50|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=18, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=18, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:51|INFO |=========================logBefore()=========================
+2021-01-25 17:28:51|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:51|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=19, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:51|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:51|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:51|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=19, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=19, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:51|INFO |=========================logBefore()=========================
+2021-01-25 17:28:51|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:51|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=20, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:51|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:51|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:51|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=20, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=20, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:51|INFO |=========================logBefore()=========================
+2021-01-25 17:28:51|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:51|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=21, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:51|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:51|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:51|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=21, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=21, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:52|INFO |=========================logBefore()=========================
+2021-01-25 17:28:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:52|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=22, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:52|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:52|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=22, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=22, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:28:53|INFO |=========================logBefore()=========================
+2021-01-25 17:28:53|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:53|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=23, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:53|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:53|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:53|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=23, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=23, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:28:53|INFO |=========================logBefore()=========================
+2021-01-25 17:28:53|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:53|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=24, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:53|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:53|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:53|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=24, start=3, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=24, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:28:54|INFO |=========================logBefore()=========================
+2021-01-25 17:28:54|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:54|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=25, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:28:54|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:28:54|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:28:54|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=25, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=25, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:30:00|INFO |=========================logBefore()=========================
+2021-01-25 17:30:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:30:00|INFO |[parameter] : 
+2021-01-25 17:30:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:30:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:30:10|INFO |=========================logBefore()=========================
+2021-01-25 17:30:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:30:10|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:30:12|INFO |=========================logBefore()=========================
+2021-01-25 17:30:12|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:30:12|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:31:52|INFO |=========================logBefore()=========================
+2021-01-25 17:31:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:52|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:31:52|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:31:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:52|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=1, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:31:52|INFO |=========================logBefore()=========================
+2021-01-25 17:31:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:52|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:31:52|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:31:52|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:52|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=1, start=0, length=5), strId=, strNm=, sttus=, rgsde=, updde=), draw=1, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:31:55|INFO |=========================logBefore()=========================
+2021-01-25 17:31:55|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:55|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=2, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:31:55|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:31:55|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:55|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=2, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=2, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:31:56|INFO |=========================logBefore()=========================
+2021-01-25 17:31:56|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:56|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=3, start=0, length=-1), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:31:56|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:31:56|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:56|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=3, start=0, length=-1), strId=, strNm=, sttus=, rgsde=, updde=), draw=3, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=qwe, strNm=qqq, sttus=fail, rgsde=2021-01-25 17:27, updde=2021-01-25 17:27)])
+2021-01-25 17:31:59|INFO |=========================logBefore()=========================
+2021-01-25 17:31:59|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:59|INFO |[parameter] : TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=4, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=)
+
+2021-01-25 17:31:59|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:31:59|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.selectTestList
+2021-01-25 17:31:59|INFO |[return] : DataTableOutput(searchVo=TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=STR_ID, searchWrd=, sortColumn=null, sortOrder=null, draw=4, start=0, length=3), strId=, strNm=, sttus=, rgsde=, updde=), draw=4, recordsTotal=4, recordsFiltered=4, data=[TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:18, updde=2021-01-25 17:18), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=success, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28), TestVo(super=BaseObject(searchBgnDe=null, searchEndDe=null, searchCnd=null, searchWrd=null, sortColumn=null, sortOrder=null, draw=0, start=0, length=20), strId=ksw, strNm=kim, sttus=fail, rgsde=2021-01-25 17:28, updde=2021-01-25 17:28)])
+2021-01-25 17:32:00|INFO |=========================logBefore()=========================
+2021-01-25 17:32:00|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest
+2021-01-25 17:32:00|INFO |[parameter] : 
+2021-01-25 17:32:10|INFO |=========================logAfterReturning()=========================
+2021-01-25 17:32:10|INFO |[class-method] : com.plantynet.tech2.service.impl.TestServiceImpl.asyncTest

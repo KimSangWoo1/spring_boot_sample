@@ -70,10 +70,12 @@ dependencies {
 		}
 	}
 	*/
+	/*
 	bootRun {
     String activeProfile = System.properties['spring.profiles.active']
     systemProperty "spring.profiles.active", activeProfile
 	}
+	*/
 
 //수동 추가
 //https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
