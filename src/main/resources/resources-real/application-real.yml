@@ -21,11 +21,15 @@ spring:
     #hikari (type은 굳이 지정할 필요 없음)
     #type: com.zaxxer.hikari.HikariDataSource
     hikari:
-      connectionTimeout: 5000 #30000ms
-      #maxLifetime: 1800000 #1800000ms(30분)
-      maximumPoolSize: 20 #기본 10
+      connectionTimeout: 5000 #30000ms 클라이언트가 pool에 Connection을 요청하는데 기다리는 최대시간 설정
+      #maxLifetime: 1800000 #1800000ms(30분) Coneection의 최대 유지 시간 설정 ,시간이 지나면 connection은 작업이 완료되면 폐기됨 하지만 유휴 거낵션은 바로 폐기됨
+      maximumPoolSize: 20 #기본 10  유휴 및 사용중인 Connection을 포함하여 풀에 보관가능한 최대 connection 개수를 설정
       validationTimeout: 1000 #5000ms, connectionTimeout 보다 적어야 함
-  jmx:
+      #minimumldle: 10 #기본 10 Connection pool에서 유지가능한 최소 커낵션 개수를 설정 
+      #idleTimeout: 60000 기본 (60000 (10분)) Connection pool에서 유휴 상태로 유지시킬 최대시간을 설정
+      #readyOnly: false (default: false) pool에서 얻은 connection이 기본적으로 readOnly인지 지정하는 설정 데이터베이스가 readOnly 속성을 지원할 경우에만 사용 가능
+#JMX는 실행 중인 애플리케이션의 상태를 모니터링 하고, 설정을 변경할 수 있게 해주는 API
+  jmx: 
     enabled: false
   devtools:
     livereload:
@@ -38,5 +42,6 @@ server:
   port: 8080
 ---
 custom:
-  # 1시간에 한번
-  schedule: '0 0 0/1 * * ?'
+  # 1시간에 한번  '0 0 0/1 * * ?'
+  #1분마다
+  schedule: '0 0/1 * * * ?'

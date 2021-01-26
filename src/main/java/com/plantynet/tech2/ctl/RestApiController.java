@@ -59,7 +59,7 @@ public class RestApiController extends BaseController
     {
         this.testService = testService;
     }
-    
+    //http://localhost:8080/api/v1.0/echo
     //@GetMapping(value = "/echo/{id}")
     @GetMapping(value = {"/echo", "/echo/{id}"})
     public ResponseEntity<?> echo(

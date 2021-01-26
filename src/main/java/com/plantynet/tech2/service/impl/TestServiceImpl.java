@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.plantynet.common.base.vo.DataTableOutput;
 import com.plantynet.tech2.dao.TestDao;
 import com.plantynet.tech2.service.TestService;
+import com.plantynet.tech2.support.aop.NoAspect;
 import com.plantynet.tech2.vo.TestVo;
 
 @Service(value = "testService")
@@ -47,6 +48,7 @@ public class TestServiceImpl implements TestService
         return testDao.selectTestListCnt(testVo);
     }
     
+    @NoAspect
     @Async
     @Override
     public void asyncTest()

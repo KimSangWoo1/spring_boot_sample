@@ -34,5 +34,12 @@ public class RestCommonExceptionAdvice
         map.put("message", ex.getMessage());
         
         return map;
-    }
+    }    
 }
+
+/*
+ * @RestControllerAdvice 는 @ExceptionHandler, @ModelAttribute, @InitBinder가 적용된 메소드들을 AOP를 적용해
+ * 컨트롤러 단에 적용하기 위헤 생긴 어노테이션임.
+ * 
+ * 여기선 @ExceptionHandler를 통해서 Exception 처리를 설정해줌 
+ */

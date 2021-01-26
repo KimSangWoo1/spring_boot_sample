@@ -6,10 +6,16 @@ spring:
     #job-store-type: memory
     wait-for-jobs-to-complete-on-shutdown: true
     properties:
+      #@Configure Main Scheduler Properities
       org.quartz.scheduler.skipUpdateCheck: true
+      org.quartz.scheduler.instanceName : Kim_Scheduler      #스케쥴러 이름 설정
+          #org.quartz.scheduler.instanceID = AUTO
+      #@Configure ThreadPool
       org.quartz.threadPool.class: org.quartz.simpl.SimpleThreadPool
-      org.quartz.threadPool.threadCount: 3
-      org.quartz.jobStore.class: org.quartz.simpl.RAMJobStore
+      org.quartz.threadPool.threadCount: 3    #Quatz쓰레드풀 갯수 설정
+      #@Configure JobStore
+      org.quartz.jobStore.misfireThreshold: 60000  # Job이 실행되어야 하는데 서버가 셧다운 되었거나 쓰레드가 부족한 경우에 제시간에 실행이 안될 수 있는데 이 경우를 misfire (불발) 되었다고 한다  6000(기본 값 : 1분)  1분이 지나면 misfire되었다고 판단한다. 
+      org.quartz.jobStore.class: org.quartz.simpl.RAMJobStore  #작업 및 스리거의 세부 정보 설정
       #https://www.techpaste.com/2016/03/quartz-scheduler-shutdown/
       #debug mode에서는 종료를 기다리지 않고 바로 끝나 버리는 문제가 있음. chromedriver.exe 가 떠 있는지 확인할 것!!!
       #org.quartz.threadPool.makeThreadsDaemons: true
@@ -19,14 +25,14 @@ spring:
       org.quartz.plugin.shutdownhook.cleanShutdown: true
   output: 
     ansi:
-      enabled: DETECT
+      enabled: ALWAYS #DETECT 기본값
   #Async 설정
   task:
     execution:
       pool:
-        core-size: 4
-        max-size: 40
-        queue-capacity: 160
+        core-size: 4  #초기 쓰레드 생성 갯수?
+        max-size: 40 # 최대 갯수   Integer.MAX_VALUE 기본값
+        queue-capacity: 160 #  큐 쌓이는 최대 갯수
 server:
   servlet:
     encoding:
@@ -41,8 +47,8 @@ mybatis:
   configuration:
     #lazy-loading-enabled: true
     #aggressive-lazy-loading: false
-    map-underscore-to-camel-case: true
-    jdbc-type-for-null: null
+    map-underscore-to-camel-case: true #자동 낙타 표기법 인식 적용?
+    jdbc-type-for-null: null # 쿼리에 보내는 파라메터가 null인경우 오류 방지 파라매터 값을 null로 대채하는듯
 ---
 ## 로그 설정파일 위치 지정
 #스프링이나 일반 자바프로그램의 경우는 보통 logback.xml 파일을 resources 디렉토리에 만들어서 참조 (클래스 패스 루트상)

@@ -62,7 +62,7 @@ public class ScheduleConfig
                 .build();*/
     	
         //simpleTrigger 와 Cron 방식이 있음  cron이 더 복잡한 시간설정을 할 수 있음.
-        //cron    cron 표현식 : https://www.freeformatter.com/cron-expression-generator-quartz.html
+        //cron    cron 표현식 : https://www.freeformatter.com/cron-expression-generator-quartz.html      http://www.cronmaker.com/
         CronScheduleBuilder cronBuilder = CronScheduleBuilder.cronSchedule(schedule);
         
         return TriggerBuilder
