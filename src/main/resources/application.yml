@@ -1,7 +1,8 @@
 # 스프링 부트 기본 환경 선택(기본 profile: real,batch)
 spring:
   profiles:
-    active: batch, real, local
+    active: batch
+    include: real, local
   quartz:
     #job-store-type: memory
     wait-for-jobs-to-complete-on-shutdown: true
@@ -64,7 +65,7 @@ logging:
   pattern:
     console: '[%d{yyyy-MM-dd HH:mm:ss}] %logger{10} %-5level [%thread] %msg%n'
     file: '%d{yyyy-MM-dd HH:mm:ss}|%-5level|%msg%n'
-  level:
+  level:    #TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF  중 하나
     root: INFO
     org.mybatis.spring.SqlSessionUtils: DEBUG
     com.plantynet.tech2.dao: DEBUG
